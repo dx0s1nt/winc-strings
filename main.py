@@ -18,4 +18,4 @@ last_name_len=len(player[player.find(' ')+1:])
 name_short=player[0]+'. '+player[len(player)-last_name_len:]
 #voornaam moet minimaal 1 letter bevatten
 chant=f"{first_name}!"+ f" {first_name}!" * (len(first_name)-1)
-good_chant=(chant[-1]!=' ')
+good_chant=chant[-1]!=' '
